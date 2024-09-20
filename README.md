@@ -64,8 +64,8 @@ We also enabled multiple environment variables in serving our demo model engine;
 - The model we are using is [meta-llama/Meta-Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct) 
 
 ```sh
-# we are maximizing our allowable memory cache for serving. with approx. 50gb reserved. this was set at 400gb
-export VLLM_CPU_KVCACHE_SPACE=40
+# we are maximizing our allowable memory cache for serving with approx. 50gb reserved. This was set at 400gb
+export VLLM_CPU_KVCACHE_SPACE=400
 # since we are running a 2socket server setup, it is necessary to perform thread binding to prevent numa node clashing
 export VLLM_CPU_OMP_THREADS_BIND=all
 

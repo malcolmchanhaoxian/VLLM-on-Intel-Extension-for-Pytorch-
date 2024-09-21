@@ -4,7 +4,7 @@
 </n>
 
 ---
-# vLLM-on-Intel-Extension-for-Pytorch with OpenAI Completions Template
+# vLLM on Intel Extension for Pytorch with OpenAI Completions Template
 
 ## Introduction
 

@@ -108,5 +108,6 @@ Details available in html results file.
 
 ## Disclaimers / Attribution
 This repository is for educational purposes and is a community contribution from repository owner. It is not intended for any commercial purposes.
-Credits and attribution should be directed to repository owner and all contributors.
+Credits and attribution should be directed to repository owner and all contributors. This repository is not owned by Intel or its subsidiary.
+The performance numbers reported here are indicative and not approved legally by Intel.
 

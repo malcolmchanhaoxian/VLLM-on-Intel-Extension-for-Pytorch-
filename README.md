@@ -89,7 +89,7 @@ Our preliminary tests shows an output token throughput of 10 - 12 tokens per sec
 ## Benchmarks
 The below is a benchmark exercise to compare the ability of the model serving engine to handle concurrency while **only using CPU as inferencing device**. <br>
 In order to execute this, we utilise [Locust](https://locust.io/) and swarm the model serving engine with concurrent users.<br>
-We set a specific prompt, max output tokens and temperature paramaters to perform the swarm test. These can be modified in the swarm file:
+We set a specific prompt, max output tokens and temperature paramaters to perform the swarm test. These can be modified in the [swarm](https://github.com/malcolmchanhaoxian/VLLM-on-Intel-Extension-for-Pytorch-/blob/main/locustfile.py) file:
 ```sh
 "model": <model path>,
 "prompt": "Tell me Intel history",

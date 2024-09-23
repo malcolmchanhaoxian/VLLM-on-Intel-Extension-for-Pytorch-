@@ -9,7 +9,7 @@ class VLLMUser(HttpUser):
             "/v1/completions",
             headers={"Content-Type": "application/json"},
             json={
-                "model": "/home/dellubuntu/mylab/vllm/model_files/",
+                "model": <model_path>,
                 "prompt": "Tell me Intel history",
                 "max_tokens": 128,
                 "temperature": 0.9
